@@ -13,7 +13,7 @@ Problems Solved:
 Problem | From | Constraints
 --- | --- | --- |
 Find the smallest positive number missing from the array | GeeksForGeeks | Linear Time and Constant Space
-
+Find frequencies of occurence in an array | GeeksForGeeks | Linear Time and Constant Space
 
 <br>
 <br>
