@@ -10,12 +10,14 @@
 Problems Solved:
 
 
-Problem | From | Test-Cases Included?
---- | --- | ---
-Find the smallest positive number missing from the array | GeeksForGeeks | - [x]
+Problem | From | Constraints
+--- | --- | --- |
+Find the smallest positive number missing from the array | GeeksForGeeks | Linear Time and Constant Space
+
 
 <br>
 <br>
 <br>
+
 
 Contributions welcome
