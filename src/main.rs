@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 
 mod arrays;
+mod numerics;
 
 fn main() {
     println!("Hello, world!");
@@ -24,4 +25,14 @@ fn find_frequencies() {
     let size = array.len();
     arrays::find_frequencies(&mut array, size); // passed by ref
     assert_eq!(array, vec![0, 2, 2, 0, 1]);
+}
+
+#[test]
+fn test_large_multiplication() {
+    let left = 9999999;
+    let right = 9999999;
+
+    let results = numerics::multiply_large_nums(left, right);
+    println!("Results {}", results);
+    assert_eq!(left * right, results)
 }
